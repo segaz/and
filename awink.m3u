@@ -1,9 +1,7 @@
-#EXTM3U
+#EXTM3U url-tvg="http://www.teleguide.info/download/new3/xmltv.xml.gz"
 #EXTINF:-1 tvg-logo="https://bezbe.my1.ru/icons/logo/1.png" group-title="Общие" tvg-name=""catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Первый канал 
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
-#EXTINF:-1 tvg-logo="https://bezbe.my1.ru/icons/logo/1.png" group-title="Общие" tvg-name="",Первый HD
-https://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 group-title="Общие" tvg-logo="https://segaz.3dn.ru/icons/logo/1.png"tvg-id="pervy-info-by", Беларусь 1 HD
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus1.smil/chunklist_b5160000_sleng.m3u8
 #EXTINF:-1 "tvg-logo="https://bezbe.my1.ru/icons/logo/rossia1.png" group-title="Общие"catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Россия 1 
@@ -38,8 +36,6 @@ http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/mono.ts.m3u8
 #EXTINF:-1 group-title="Общие" tvg-logo="https://bezbe.my1.ru/icons/logo/ren.png" tvg-id="rentv"catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",РЕН ТВ 
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo=" " ,СТВ
-http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Общие" tvg-logo="https://bezbe.my1.ru/icons/logo/sts.png" tvg-id="sts"catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",СТС 
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
@@ -111,8 +107,6 @@ https://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_DOVERIE/variant.m3u8
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_SPBREGIONALHD/variant.m3u8
 #EXTINF:-1 group-title="Общие"catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Беларусь 24
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://iptvx.one/picons/solovjinypomiot.png",Соловьёв.Live HD
-https://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1
 #EXTINF:-1 tvg-id="360-int" group-title="Общие",360° HD
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
 #EXTINF:-1 group-title="Общие"tvg-logo="https://iptvx.one/picons/pervy-info-by.png"tvg-id="pervy-info-by", Первый информационный
@@ -138,8 +132,12 @@ http://185.46.16.239:8000/Match_Nash_Sport
 https://flussonic.mkpnet.ru/tv-ee3651e1e7ce5cbf/video.m3u8
 #EXTINF:-1 group-title="Спорт", КХЛ
 http://31.210.208.171:8080/khl/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Спорт",Матч! Футбол 1
+http://31.148.5.241/Match_Football_1_HD/index.m3u8
+#EXTINF:-1 group-title="Спорт",Матч! Футбол 2
+http://31.148.5.241/Match_Football_2_HD/index.m3u8
 #EXTINF:-1 group-title="Спорт",Матч! Футбол 3
-http://185.57.68.33/110/mpegts
+http://31.148.5.241/Match_Football_3_HD/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/mir-basketbola.png",Старт Basket
 https://bl.webcaster.pro/media/playlist/free_621d169e5c631c638136df3cb136c5c9/33_68881676/1080p/b32eaae5fbf1d2b8211543566a1d9a78/4914392769.m3u8?live=15&ref=https://tvstart.ru/channels/start-basket-test/
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/start-triumf.png" ,Старт Триумф
@@ -191,7 +189,7 @@ http://kinowalk.hopto.org/jtxonline_live
 #EXTINF:-1 group-title="Разные" tvg-logo="https://images.vfl.ru/ii/1638786275/7ce68888/36979397.png", ЛюксТВ Тутаев (8.00-20.00) 
 https://www.lux-tv.ru/tvstream/hls/mystream.m3u8
 #EXTINF:-1 group-title="Разные" tvg-logo="https://images.vfl.ru/ii/1598770813/b98e2d69/31487809.png",Wink
-https://zabava-htlive.cdn.ngenix.net/hls/CH_VSETVHD/variant.m3u8?version=3#parser
+https://zabava-htlive.cdn.ngenix.net/hls/CH_VSETVHD/variant.m3u8
 #EXTINF:-1 group-title="Разные" tvg-logo="https://iptvx.one/picons/modo-kamin.png",Камин
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R05_KAMINTV/variant.m3u8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/modo-kamin.png" group-title="Разные",Red Bull TV
@@ -216,7 +214,6 @@ https://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R02_9TV/variant.m3u8
 #EXTINF:-1 group-title="Разные" tvg-logo="https://segaz.3dn.ru/icons/logo/sts.png" tvg-id="prima",Прима
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8
-
 #EXTINF:-1 group-title="Разные" , Открытый мир
 https://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/ruskorabl.png"group-title="Разные", Плюс Минус 16 HD
@@ -249,8 +246,6 @@ http://31.210.208.171:8080/viju_history/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/zhivaya_planeta/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Разные", Авто 24
 http://31.210.208.171:8080/avto_24/tracks-v1a1/mono.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Разные", Авто Плюс
-http://31.210.208.171:8080/avto_plus/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Разные", Кто есть кто
 http://31.210.208.171:8080/kto_est_kto/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Разные", Кухня
@@ -367,6 +362,60 @@ https://stitch.teletarget.ru/vintera/sovietmovie/17696847156167dd9935fac28723490
 http://31.210.208.171:8080/kinoman/tracks-v1a1/mono.m3u8?token=+W2MSER
 #EXTINF:-1 group-title='Кино',Индия
 http://31.210.208.171:8080/indiya/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",FAN
+http://31.210.208.171:8080/fan/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Русский роман
+http://31.210.208.171:8080/russian_roman/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Мосфильм. Золотая коллекция
+http://31.210.208.171:8080/mosfilm/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Еврокино
+http://31.210.208.171:8080/evrokino/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Телекафе
+http://31.210.208.171:8080/telecafe/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Cinema
+http://31.210.208.171:8080/cinema/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",ВРЕМЯ
+http://31.210.208.171:8080/vremya/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Дорама
+http://31.210.208.171:8080/dorama/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Дом кино
+http://31.210.208.171:8080/dom_kino/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Кинеко
+http://31.210.208.171:8080/kineko/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Комедия
+http://31.210.208.171:8080/komedia/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Киноужас
+http://31.210.208.171:8080/kinouzhas/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Киносвидание
+http://31.210.208.171:8080/kinosvidanie/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Мужское кино
+http://31.210.208.171:8080/muzhskoe_kino/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Наше Новое Кино
+http://31.210.208.171:8080/nashe_novoe_kino/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Родное кино
+http://31.210.208.171:8080/rodnoe_kino/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Кинокомедия
+http://31.210.208.171:8080/kinokomedia/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Киносемья
+http://31.210.208.171:8080/kinofamily/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Киносат
+http://31.210.208.171:8080/kinoman/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Индия
+http://31.210.208.171:8080/indiya/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Кинохит
+http://31.210.208.171:8080/kinohit/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Настоящее Страшное Телевидение
+http://31.210.208.171:8080/nst/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",НСТ
+http://176.118.197.101/HCT/index.m3u8
+#EXTINF:-1 group-title="Кино",Shot TV
+http://31.210.208.171:8080/shottv/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Кино ТВ
+http://31.210.208.171:8080/kinotv/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Красная линия
+http://31.210.208.171:8080/krasnaya_liniya/tracks-v1a1/mono.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Кино",Советское кино
+http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8
 #EXTINF:-1 group-title="Кино",Русский роман
 http://185.46.16.239:8000/Russkiy_roman
 #EXTINF:-1 group-title="Кино",Еврокино
@@ -1573,7 +1622,7 @@ https://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Radio_ZVEZDA
 #EXTINF:-1 group-title="Радио" tvg-logo="https://i.postimg.cc/NjB6YHj7/radio.png", Ком-кая Правда
 https://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=komsomolskaya_pravda.m3u8&serviceArea=MSK-SA-1
 #EXTINF:-1 group-title="Радио" tvg-logo="https://i.postimg.cc/NjB6YHj7/radio.png", Наше радио
-https://nashe2.hostingradio.ru/nashe-128.mp3
+https://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Retro_FM.m3u8&serviceArea=MSK-SA-1
 #EXTINF:-1 group-title="Радио" tvg-logo="https://i.postimg.cc/NjB6YHj7/radio.png", Русские Песни 
 https://listen.rusongs.ru:8005/ru-mp3-128?vvv1766
 #EXTINF:-1 group-title="Радио" tvg-logo="https://i.postimg.cc/NjB6YHj7/radio.png", Antenne Bayern 
