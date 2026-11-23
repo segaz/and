@@ -112,7 +112,7 @@ https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/play
 #EXTINF:-1 group-title="Общие"tvg-logo="https://iptvx.one/picons/pervy-info-by.png"tvg-id="pervy-info-by", Первый информационный
 https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w499524774_b5160000_sleng.m3u8
 
-#EXTINF:-1 group-title="Спорт" tvg-name="" tvg-logo=" ",Матч!
+#EXTINF:-1 group-title="Спорт" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Матч!
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=3#parser
 #EXTINF:-1 group-title="Спорт" ,Матч! HD
@@ -259,7 +259,7 @@ http://31.210.208.171:8080/nasha_tema/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Разные",Охота и рыбалка
 https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 group-title="Музыка" tvg-logo="https://segaz.3dn.ru/icons/logo/mtv.png"  tvg-id="muztv",Муз ТВ 
+#EXTINF:-1 group-title="Музыка" tvg-logo="https://segaz.3dn.ru/icons/logo/mtv.png" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Муз ТВ 
 #EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8 
 #EXTINF: -1 group-title="Музыка", Радио Шансон
@@ -4509,3 +4509,4 @@ https://live.redtraffic.xyz/pov.m3u8
 https://live.redtraffic.xyz/russian.m3u8
 #EXTINF:-1 group-title="18+" tvg-logo="https://images.vfl.ru/ii/1617354685/93084ac4/33916324.jpg" ,Teen HD
 https://live.redtraffic.xyz/teen.m3u8
+
